@@ -1,6 +1,5 @@
 [build]
   publish = "clientgo88sfun/build/web-mobile"
-  command = "node build-web.js"
 
 [build.environment]
   NODE_VERSION = "18"
