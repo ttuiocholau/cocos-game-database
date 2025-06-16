@@ -23,7 +23,7 @@ try {
         // Replace localhost API URL with production URL
         indexContent = indexContent.replace(
             /http:\/\/localhost:3000\/api/g,
-            'https://your-backend-url.render.com/api'
+            'https://clientgo88sfun-backend.onrender.com/api'
         );
         
         fs.writeFileSync(indexPath, indexContent);
