@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware
 app.use(cors({
     origin: process.env.NODE_ENV === 'production' 
-        ? ['https://your-game-domain.netlify.app', 'https://your-custom-domain.com']
+        ? ['https://ttuiocholau.netlify.app', 'https://ttuiocholau.github.io', 'https://*.netlify.app']
         : ['http://localhost:7456', 'http://127.0.0.1:7456'],
     credentials: true
 }));

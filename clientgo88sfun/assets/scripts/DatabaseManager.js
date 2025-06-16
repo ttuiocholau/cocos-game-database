@@ -4,7 +4,7 @@ cc.Class({
     properties: {
         // URL của backend API server
         apiBaseUrl: {
-            default: "http://localhost:3000/api",
+            default: "https://cocos-game-database.onrender.com/api",
             displayName: "API Base URL"
         }
     },
